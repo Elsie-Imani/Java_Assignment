@@ -16,7 +16,6 @@ public class Question5 {
         first_num = input.nextDouble();
 
         // input operator
-
         System.out.println("Type one of these signs as your operator: +, -, *, or /, and hit Enter.");
         myOperator = input.next().charAt(0);
 
