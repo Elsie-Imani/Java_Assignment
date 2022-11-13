@@ -30,10 +30,11 @@ public class Question4 {
         for (int i = 0; i <= myList.size(); i++) {
             if (myList.get(i) % 2 == 0) {
                 System.out.println(myList.get(i));
-                if (i == 150 - 71) {
+                
+            }
+            if (i == 150 - 71) {
                     break;
                 }
-            }
         }
     }
 
@@ -45,10 +46,11 @@ public class Question4 {
             if (myList.get(i) % 3 == 0) {
                 System.out.println(myList.get(i));
 
-                if (i == 150 - 71) {
+                
+            }
+            if (i == 150 - 71) {
                     break;
                 }
-            }
 
         }
     }
@@ -61,10 +63,11 @@ public class Question4 {
             if (myList.get(i) % 7 == 0) {
                 System.out.println(myList.get(i));
 
-                if (i == 150 - 71) {
+               
+            }
+             if (i == 150 - 71) {
                     break;
                 }
-            }
 
         }
     }
